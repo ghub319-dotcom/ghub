@@ -14,10 +14,6 @@
 
 <script src="scripts/common.js"></script>
 <script>
-
-
-
-
 const EXERCISES = {
   full:['Jumping Jacks','Burpees','Mountain Climbers','Plank (30s)'],
   arms:['Push-ups','Tricep Dips','Bicep Curls'],
@@ -44,4 +40,16 @@ function startTimer(i,sec){
 }
 function playBeep(){ try{ const ctx=new (window.AudioContext||window.webkitAudioContext)(); const o=ctx.createOscillator(); o.connect(ctx.destination); o.start(); setTimeout(()=>o.stop(),120); }catch(e){} }
 </script>
-</body></html> Result 
+</body></html>
+
+ <!-- Workout Photo Section -->
+    <h3 style="margin-top:1.5rem"><progress></progress>
+    <div style="margin-top:.5rem;text-align:center">
+      <img src="assets/workout.jpg" alt="Workout Session" style="max-width:100%;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.2)">
+    </div>
+
+  </div>
+</main>
+
+
+    
